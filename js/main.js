@@ -80,7 +80,8 @@
         smartSpeed: 1500,
         dots: true,
         loop: true,
-        center: true,
+        autoHeight: true,
+        margin: 20,
         responsive: {
             0:{
                 items:1
@@ -92,7 +93,7 @@
                 items:2
             },
             992:{
-                items:3
+                items:4
             }
         }
     });
